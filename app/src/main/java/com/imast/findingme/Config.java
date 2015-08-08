@@ -12,7 +12,7 @@ import app.imast.com.findingme.model.Race;
 import app.imast.com.findingme.model.User;
 
 /**
- * Created by aoki on 03/08/2015.
+ * 
  */
 public class Config {
 
