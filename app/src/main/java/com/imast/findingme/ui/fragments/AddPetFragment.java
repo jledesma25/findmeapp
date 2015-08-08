@@ -37,16 +37,16 @@ import java.io.ByteArrayOutputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.imast.com.findingme.Config;
-import app.imast.com.findingme.R;
-import app.imast.com.findingme.model.Pet;
-import app.imast.com.findingme.model.PetType;
-import app.imast.com.findingme.model.Race;
-import app.imast.com.findingme.util.ValidationUtils;
-import app.imast.com.findingme.util.VolleySingleton;
+import com.imast.findingme.Config;
+import com.imast.findingme.R;
+import com.imast.findingme.model.Pet;
+import com.imast.findingme.model.PetType;
+import com.imast.findingme.model.Race;
+import com.imast.findingme.util.ValidationUtils;
+import com.imast.findingme.util.VolleySingleton;
 
-import static app.imast.com.findingme.util.LogUtils.LOGD;
-import static app.imast.com.findingme.util.LogUtils.makeLogTag;
+import static com.imast.findingme.util.LogUtils.LOGD;
+import static com.imast.findingme.util.LogUtils.makeLogTag;
 
 /**
  * A simple {@link Fragment} subclass.
