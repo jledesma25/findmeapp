@@ -31,15 +31,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import app.imast.com.findingme.Config;
-import app.imast.com.findingme.R;
-import app.imast.com.findingme.adapters.MyPetAdapter;
-import app.imast.com.findingme.model.Pet;
-import app.imast.com.findingme.util.DividerItemDecoration;
-import app.imast.com.findingme.util.VolleySingleton;
+import com.imast.findingme.Config;
+import com.imast.findingme.R;
+import com.imast.findingme.adapters.MyPetAdapter;
+import com.imast.findingme.model.Pet;
+import com.imast.findingme.util.DividerItemDecoration;
+import com.imast.findingme.util.VolleySingleton;
 
-import static app.imast.com.findingme.util.LogUtils.LOGD;
-import static app.imast.com.findingme.util.LogUtils.makeLogTag;
+import static com.imast.findingme.util.LogUtils.LOGD;
+import static com.imast.findingme.util.LogUtils.makeLogTag;
 
 
 public class MyPetsFragment extends Fragment implements View.OnClickListener {
