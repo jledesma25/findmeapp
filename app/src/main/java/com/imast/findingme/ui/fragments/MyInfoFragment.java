@@ -34,16 +34,16 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import app.imast.com.findingme.Config;
-import app.imast.com.findingme.R;
-import app.imast.com.findingme.model.District;
-import app.imast.com.findingme.model.Profile;
-import app.imast.com.findingme.util.MyUtils;
-import app.imast.com.findingme.util.ValidationUtils;
-import app.imast.com.findingme.util.VolleySingleton;
+import com.imast.findingme.Config;
+import com.imast.findingme.R;
+import com.imast.findingme.model.District;
+import com.imast.findingme.model.Profile;
+import com.imast.findingme.util.MyUtils;
+import com.imast.findingme.util.ValidationUtils;
+import com.imast.findingme.util.VolleySingleton;
 
-import static app.imast.com.findingme.util.LogUtils.LOGD;
-import static app.imast.com.findingme.util.LogUtils.makeLogTag;
+import static com.imast.findingme.util.LogUtils.LOGD;
+import static com.imast.findingme.util.LogUtils.makeLogTag;
 
 /**
  * A simple {@link Fragment} subclass.
