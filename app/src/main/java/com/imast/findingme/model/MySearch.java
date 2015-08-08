@@ -1,4 +1,4 @@
-package app.imast.com.findingme.model;
+package com.imast.findingme.model;
 
 /**
  * Created by XKenokiX on 07/08/2015.
