@@ -3,7 +3,7 @@ package com.imast.findingme.util;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-import app.imast.com.findingme.model.District;
+import com.imast.findingme.model.District;
 
 /**
  * Created by lmcornejov on 08/08/2015.
