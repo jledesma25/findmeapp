@@ -2,8 +2,8 @@ package com.imast.findingme.util;
 
 import android.util.Log;
 
-import app.imast.com.findingme.BuildConfig;
-import app.imast.com.findingme.Config;
+import com.imast.findingme.BuildConfig;
+import com.imast.findingme.Config;
 
 /**
  * Created by lmcornejov on 08/08/2015.
