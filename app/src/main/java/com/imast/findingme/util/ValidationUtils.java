@@ -4,7 +4,7 @@ import android.support.design.widget.TextInputLayout;
 import android.text.TextUtils;
 
 /**
- * Created by XKenokiX on 04/08/2015.
+ * Created by lmcornejov on 08/08/2015.
  */
 public class ValidationUtils {
 

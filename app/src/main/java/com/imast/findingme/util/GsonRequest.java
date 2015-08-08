@@ -15,7 +15,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.Map;
 
 /**
- * Created by aoki on 03/08/2015.
+ * Created by lmcornejov on 08/08/2015.
  */
 public class GsonRequest<T> extends JsonRequest<T> {
 

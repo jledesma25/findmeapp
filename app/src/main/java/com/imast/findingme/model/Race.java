@@ -1,7 +1,7 @@
 package com.imast.findingme.model;
 
 /**
- * Created by aoki on 05/08/2015.
+ * Created by lmcornejov on 08/08/2015.
  */
 public class Race {
 

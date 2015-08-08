@@ -6,7 +6,7 @@ import android.widget.Spinner;
 import app.imast.com.findingme.model.District;
 
 /**
- * Created by aoki on 07/08/2015.
+ * Created by lmcornejov on 08/08/2015.
  */
 public class MyUtils {
 
