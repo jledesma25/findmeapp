@@ -29,15 +29,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import app.imast.com.findingme.Config;
-import app.imast.com.findingme.R;
-import app.imast.com.findingme.adapters.MySearchAdapter;
-import app.imast.com.findingme.model.MySearch;
-import app.imast.com.findingme.util.DividerItemDecoration;
-import app.imast.com.findingme.util.VolleySingleton;
+import com.imast.findingme.Config;
+import com.imast.findingme.R;
+import com.imast.findingme.adapters.MySearchAdapter;
+import com.imast.findingme.model.MySearch;
+import com.imast.findingme.util.DividerItemDecoration;
+import com.imast.findingme.util.VolleySingleton;
 
-import static app.imast.com.findingme.util.LogUtils.LOGD;
-import static app.imast.com.findingme.util.LogUtils.makeLogTag;
+import static com.imast.findingme.util.LogUtils.LOGD;
+import static com.imast.findingme.util.LogUtils.makeLogTag;
 
 public class MySearchFragment extends Fragment {
 
