@@ -63,7 +63,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             }
         };
 
-        txvUsername.setText(Config.profile.getFullName());
+        if (Config.profile != null)
+            txvUsername.setText(Config.profile.getFullName());
+
         txvEmail.setText(Config.user.getEmail());
 
         //Setting the actionbarToggle to drawer layout
@@ -150,6 +152,9 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private void signOut() {
 
         Config.user = null;
+        Config.pet = null;
+        Config.profile = null;
+        Config.lostPet = null;
 
         Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
         startActivity(intent);

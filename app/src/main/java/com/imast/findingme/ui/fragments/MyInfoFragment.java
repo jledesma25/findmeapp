@@ -197,6 +197,7 @@ public class MyInfoFragment extends Fragment implements View.OnClickListener {
 
                                     if (profile != null)
                                     {
+                                        Config.profile = profile;
                                         progress.dismiss();
                                         Toast.makeText(getActivity().getApplicationContext(), "Se Actualizó Mi Información", Toast.LENGTH_SHORT).show();
                                     }

@@ -41,6 +41,11 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
+        Config.user = null;
+        Config.pet = null;
+        Config.profile = null;
+        Config.lostPet = null;
+
         loadInitData();
 
         Thread loading = new Thread() {

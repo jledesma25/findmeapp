@@ -146,13 +146,13 @@ public class AddPetFragment extends Fragment implements View.OnClickListener {
             progress.setMessage("Grabando Mascota...");
             progress.show();
 
-            BitmapDrawable drawable = (BitmapDrawable) imgPetPhoto.getDrawable();
+            /*BitmapDrawable drawable = (BitmapDrawable) imgPetPhoto.getDrawable();
             Bitmap bitmap = drawable.getBitmap();
 
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             bitmap.compress(Bitmap.CompressFormat.JPEG, 75, bos);
             byte[] bb = bos.toByteArray();
-            String petPhoto64 = Base64.encodeToString(bb, 0);
+            String petPhoto64 = Base64.encodeToString(bb, 0);*/
 
             int sexSelectedId = rbgPetSex.getCheckedRadioButtonId();
             int vaccionatedSelectedId = rbgPetVaccionated.getCheckedRadioButtonId();
@@ -181,7 +181,7 @@ public class AddPetFragment extends Fragment implements View.OnClickListener {
                 jsonObject.put("state", "1");
                 jsonObject.put("pet_type_id", petTypeId);
                 jsonObject.put("user_id", Config.user.getId());
-                jsonObject.put("", petPhoto64);
+                //jsonObject.put("", petPhoto64);
                 //jsonObject.put("photo", "missing.png");
 
                 jsonPet.put("pet", jsonObject);
