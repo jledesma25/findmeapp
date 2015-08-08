@@ -1,4 +1,4 @@
-package app.imast.com.findingme;
+package com.imast.findingme;
 
 import java.util.ArrayList;
 import java.util.List;
