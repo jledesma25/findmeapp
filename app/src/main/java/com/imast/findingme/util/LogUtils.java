@@ -6,7 +6,7 @@ import app.imast.com.findingme.BuildConfig;
 import app.imast.com.findingme.Config;
 
 /**
- * Created by aoki on 03/08/2015.
+ * Created by lmcornejov on 08/08/2015.
  */
 public class LogUtils {
 
