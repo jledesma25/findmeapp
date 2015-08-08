@@ -3,13 +3,13 @@ package com.imast.findingme;
 import java.util.ArrayList;
 import java.util.List;
 
-import app.imast.com.findingme.model.District;
-import app.imast.com.findingme.model.LostPet;
-import app.imast.com.findingme.model.Pet;
-import app.imast.com.findingme.model.PetType;
-import app.imast.com.findingme.model.Profile;
-import app.imast.com.findingme.model.Race;
-import app.imast.com.findingme.model.User;
+import com.imast.findingme.model.District;
+import com.imast.findingme.model.LostPet;
+import com.imast.findingme.model.Pet;
+import com.imast.findingme.model.PetType;
+import com.imast.findingme.model.Profile;
+import com.imast.findingme.model.Race;
+import com.imast.findingme.model.User;
 
 /**
  * 
