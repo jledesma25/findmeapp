@@ -1,4 +1,4 @@
-package app.imast.com.findingme.util;
+package com.imast.findingme.util;
 
 import android.content.Context;
 import android.content.res.TypedArray;
